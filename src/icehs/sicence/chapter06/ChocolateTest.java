@@ -11,7 +11,10 @@ public class ChocolateTest {
 		String chocoName = choco.getName();
 		int totalPrice = choco.calculateTotalPrice(20);
 		
-		System.out.println(chocoName +" 초콜렛 20개 :" + totalPrice);
+		System.out.println(chocoName +" 초콜렛 20개 : " + totalPrice);
 		choco.changeChocolateInfo("카페 키리쉬", 2500);
+		totalPrice = choco.calculateTotalPrice(15, 10);
+		System.out.println(chocoName +" 초콜렛 15개 (10%할인) : " + totalPrice);
+		choco.changeChocolateInfo("트리플 블랑", 2300, "화이트");
 	}
 }

@@ -1,7 +1,7 @@
 package icehs.sicence.chapter06;
 
 public class Account {
-	String name;
+	public String name;
 	String accNo;
 	int balance;
 	
