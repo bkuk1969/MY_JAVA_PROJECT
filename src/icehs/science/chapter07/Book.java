@@ -1,7 +1,9 @@
 package icehs.science.chapter07;
 
+import icehs.sicence.chapter06.Account;
+
 public class Book {
-	
+	Account acc = new Account();
 	private String title;
 	private int price;
 	private String author;
