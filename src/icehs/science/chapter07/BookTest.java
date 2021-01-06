@@ -1,5 +1,7 @@
 package icehs.science.chapter07;
 
+import icehs.sicence.chapter06.Account;
+
 public class BookTest {
 	public static void main(String[] args) {
 		Book book1 = new Book();
@@ -12,5 +14,7 @@ public class BookTest {
 		
 		Book book3 = new Book("Office 365 in School", "±¸º´±¹", 26000);
 		book3.printBookInfo();
+		Account acc = new Account();
+		acc.withdraw(1000);
 	}
 }

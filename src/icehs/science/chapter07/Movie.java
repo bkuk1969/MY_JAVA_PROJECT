@@ -1,9 +1,13 @@
 package icehs.science.chapter07;
 
 public class Movie {
-	String title;
-	String genre;
+	private String title;
+	private String genre;
 	String director;
+	
+	void setTitle(String title) {
+		this.title = title;
+	}
 	
 	public Movie() {
 		

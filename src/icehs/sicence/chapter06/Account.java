@@ -1,18 +1,18 @@
 package icehs.sicence.chapter06;
 
 public class Account {
-	public String name;
+	String name;
 	String accNo;
 	int balance;
 	
-	void deposit(int money) {
+	public void deposit(int money) {
 		System.out.println(money +"원을 입금합니다.");
 		if(money < 0) {
 			System.out.println("[에러]금액은 음수를 입력할 수 없습니다.");
 		}else {	
 			balance += money; //balance = balance + money;
 		}}
-	int withdraw(int money) {
+	public int withdraw(int money) {
 		System.out.println(money +"원을 출금합니다.");
 		if(money < 0) {
 			System.out.println("[에러]금액은 음수를 입력할 수 없습니다.");

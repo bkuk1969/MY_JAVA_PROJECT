@@ -7,5 +7,10 @@ public class ComputerTest {
 		
 		Computer r570 = new Computer("R570", "Win 10", 200, 30);
 		r570.printComputerInfo();
+		
+		Movie m1 = new Movie();
+		m1.setTitle("π„ø° ∏‘¿∫ µ˛±‚∞° ∏¿¿÷¥Ÿ.");
+		//m1.title="π„ø° ∏‘¿∫ µ˛±‚∞° ∏¿¿÷¥Ÿ.";
+		
 	}
 }
