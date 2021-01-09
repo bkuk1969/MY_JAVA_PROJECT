@@ -9,6 +9,9 @@ public class InherPerson {
 			persons[i].sleep();
 		}
 		
+		//persons[1].eat();
+		((Student)persons[1]).study();
+		((Teacher)persons[2]).teach();
 
 		//p2.study();
 	
